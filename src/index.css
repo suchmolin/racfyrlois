@@ -1,0 +1,50 @@
+@font-face{
+  font-family: 'eastman';
+  src: url("/fonts/EastmanRomanTrial-Regular.otf")
+}
+@font-face{
+  font-family: 'eastman-bold';
+  src: url("/fonts/EastmanRomanTrial-Bold.otf")
+}
+@font-face{
+  font-family: 'eastman-black';
+  src: url("/fonts/EastmanRomanTrial-Black.otf")
+}
+@font-face{
+  font-family: 'lato';
+  src: url("/fonts/Lato-Regular.ttf")
+}
+@font-face{
+  font-family: 'lemon';
+  src: url("/fonts/LEMONMILK-Regular.otf")
+}
+@font-face{
+  font-family: 'lemon-bold';
+  src: url("/fonts/LEMONMILK-Bold.otf")
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animate-spin-slow {
+    animation: spin 3s linear infinite;
+  }
+}
+
+
+@theme {
+  --breakpoint-3xl: 105rem;
+  --breakpoint-4xl: 121rem;
+}
+
+*{
+  scroll-behavior: smooth;
+}
+
+textarea{
+  resize: none;
+}
+
