@@ -115,8 +115,8 @@ const Footer = () => {
                                 </div>
 
                                 {/* SEDES Button */}
-                                <div className="bg-[#cdea80] w-fit py-2 px-4 rounded-md hover:font-bold transition-all duration-300">
-                                    <Dropdown inline label="Sedes" dismissOnClick={false}>
+                                <div className="bg-gray-200 w-fit py-2 px-4 rounded-md hover:font-bold transition-all duration-300">
+                                    <Dropdown inline label="Sedes" dismissOnClick={false} className='text-[#001A70]'>
                                         {data.map((item, i) => (
                                             <Dropdown.Item
                                                 onClick={() => window.open(item.redir, "_blank")}

@@ -1,6 +1,6 @@
 function SectionSeparator() {
     return (
-        <div className="relative w-full h-30 bg-white overflow-x-hidde pt-32">
+        <div className="relative w-full h-30 bg-white overflow-x-hidde pt-32 block md:hidden">
             {/* Fondo azul oscuro con transición curva */}
             <div className="absolute bottom-0 w-[150%] -left-1/4 h-full bg-[#001A70] rounded-t-[50%]"></div>
 

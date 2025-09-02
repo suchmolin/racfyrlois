@@ -12,7 +12,8 @@ const KidsInfoSection = () => {
                 "Amplía su conocimiento del mundo, cultura y tolerancia.",
                 "Logra una pronunciación más precisa del inglés desde temprana edad."
             ],
-            imgtitulo: "/img/ESTRELLA1.webp"
+            imgtitulo: "/img/ESTRELLA1.webp",
+            imgSize: "w-[60px] h-auto sm:w-[90px] md:w-[100px] lg:w-[150px] 2xl:w-[200px]"
 
         },
         {
@@ -27,7 +28,8 @@ const KidsInfoSection = () => {
 
             bgcolor: "white",
             textcolor: "#001A70",
-            imgtitulo: "/img/LENTES-3.png",
+            imgtitulo: "/img/LENTES1.webp",
+            imgSize: "w-[60px] h-auto sm:w-[220px] md:w-[100px] lg:w-[150px] 2xl:w-[200px]",
             titlesize: "45px"
         },
         {
@@ -39,7 +41,8 @@ const KidsInfoSection = () => {
                 "Utilizamos temas pensados para su edad e intereses.",
                 "Brindamos una preparación para pruebas académicas: TOEFL y IELTS."
             ],
-            imgtitulo: "/img/LENTES-3.png",
+            imgtitulo: "/img/RAYO1.webp",
+            imgSize: "w-[60px] h-auto sm:w-[90px] md:w-[100px] lg:w-[150px] 2xl:w-[200px]",
             titlesize: "43px"
 
         }

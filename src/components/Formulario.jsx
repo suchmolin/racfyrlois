@@ -6,7 +6,10 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 export default function Formulario() {
     return (
         <div className="w-full flex flex-col items-center bg-[#001A70] pb-5 relative z-10">
-            <img src="/img/cincoestrellas.png" alt="5 estrellas" />
+            <div className="w-full flex justify-center py-10">
+
+                <img src="/img/cincoestrellas.webp" alt="5 estrellas" className="w-[330px]" />
+            </div>
             <h2 className="italic my-2 text-white text-3xl font-bold text-center text-nowrap">
                 ¡Impulsa el aprendizaje <br />
                 de tu hijo con el inglés!

@@ -8,13 +8,13 @@ const TestimonialCard = ({
     testimonial
 }) => {
     return (
-        <div className=" w-[380px] mx-auto">
-            <div className="bg-[#eeeeef] rounded-2xl p-4">
-                <div className="flex gap-2">
+        <div className=" w-[380px] sm:w-[450px] lg:w-[800px] 2xl:w-[1200px] mx-auto">
+            <div className="bg-[#eeeeef] rounded-2xl p-4 lg:p-8 2xl:p-12">
+                <div className="flex gap-2 sm:gap-6 2xl:gap-8">
                     {/* Left Side - Profile Picture and Rating */}
                     <div className="flex flex-col items-center">
                         {/* Profile Picture */}
-                        <div className="w-24 h-24 rounded-full overflow-hidden mb-4">
+                        <div className="w-24 aspect-square lg:w-64 2xl:w-[350px] rounded-full overflow-hidden mb-4">
                             <img
                                 src={imagePath}
                                 alt={name}
@@ -23,9 +23,9 @@ const TestimonialCard = ({
                         </div>
 
                         {/* 5-Star Rating */}
-                        <div className="flex">
+                        <div className="flex sm:gap-1 ">
                             {[...Array(5)].map((_, index) => (
-                                <FaStar key={index} className='text-2xl text-[#FFA400]' />
+                                <FaStar key={index} className='text-2xl lg:text-5xl 2xl:text-6xl text-[#FFA400]' />
                             ))}
                         </div>
                     </div>
@@ -33,17 +33,17 @@ const TestimonialCard = ({
                     {/* Right Side - Name, Category, and Testimonial */}
                     <div className="flex-1">
                         {/* Name and Category */}
-                        <div className="mb-4">
-                            <h3 className="text-2xl font-bold text-[#001A70] mb-1">
+                        <div className="mb-2 2xl:mb-5">
+                            <h3 className="text-2xl lg:text-5xl 2xl:text-6xl font-bold text-[#001A70] 2xl:mb-5">
                                 {name}
                             </h3>
-                            <p className="text-lg text-[#001A70] font-medium">
+                            <p className="text-lg sm:text-3xl 2xl:text-5xl text-[#001A70] font-medium 2xl:font-normal">
                                 {category}
                             </p>
                         </div>
 
                         {/* Testimonial Text */}
-                        <blockquote className="text-xs leading-3 font-bold text-justify">
+                        <blockquote className="text-xs lg:text-xl 2xl:text-3xl leading-3 text-justify">
                             "{testimonial}"
                         </blockquote>
                     </div>

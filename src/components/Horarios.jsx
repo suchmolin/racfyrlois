@@ -30,11 +30,11 @@ const Horarios = () => {
 
     return (
         <>
-            <div className="w-full flex justify-center items-center">
-                <img src="/img/estrella3.webp" alt="estrella reloj" className="w-28 h-28" />
+            <div className="w-full flex justify-center items-center pt-10 min-[474px]:pt-20 min-[758px]:pt-32 relative z-20 md:-mt-20">
+                <img src="/img/estrella3.webp" alt="estrella reloj" className="w-28 aspect-square min-[758px]:w-40 lg:w-64" />
                 <div className="flex flex-col ">
-                    <h2 className="text-[#001A70] text-4xl font-black font-eastman">Horarios <br />disponibles</h2>
-                    <h3 className="text-lg text-[#FFA400] italic font-bold">Año Escolar <span className="font-lemon font-bold">2025-2026</span></h3>
+                    <h2 className="text-[#001A70] text-4xl min-[758px]:text-6xl lg:text-8xl font-black font-eastman">Horarios <br />disponibles</h2>
+                    <h3 className="text-lg min-[758px]:text-2xl lg:text-4xl text-[#FFA400] italic font-bold lg:mt-4">Año Escolar <span className="font-lemon font-bold">2025-2026</span></h3>
                 </div>
             </div>
             <section className="py-5 px-4 bg-white">

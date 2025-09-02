@@ -20,19 +20,36 @@ function Navbar() {
     ]
 
     return (
-        <nav className="shadow-lg eastman font-bold" style={{ backgroundColor: '#97D700' }}>
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav className="font-eastman font-bold md:pt-5 min-[1440px]:pt-10 min-[1950px]:pt-12 md:absolute bg-[#97D700] md:bg-transparent w-full">
+            <div className="mx-auto px-4 sm:px-6 lg:px-8 min-[1950px]:px-12">
                 <div className="flex justify-between items-center h-16">
-                    {/* Lado izquierdo - vacío */}
-                    <div className="flex-shrink-0">
-                        {/* Espacio vacío para mantener el layout */}
+                    {/* Lado izquierdo - Logo y navegación */}
+                    <div className="flex items-center space-x-8">
+                        {/* Logo */}
+                        <div className="flex-shrink-0 hidden md:block">
+                            <img src="/img/logo.webp" alt="FYR LOIS Logo" className="h-12 xl:h-16 min-[1440px]:h-24 min-[1950px]:h-28 w-auto" />
+                        </div>
+
+                        {/* Menú desktop - solo visible en md y superior */}
+                        <div className="hidden md:flex items-center space-x-6">
+                            {menuItems.map((item) => (
+                                <a
+                                    key={item.name}
+                                    href={item.href}
+                                    className="hover:opacity-80 px-3 md:px-1 py-2 text-sm xl:text-lg min-[1440px]:text-2xl min-[1950px]:text-3xl transition-opacity duration-200"
+                                    style={{ color: '#001A70' }}
+                                >
+                                    {item.name}
+                                </a>
+                            ))}
+                        </div>
                     </div>
 
-                    {/* Iconos - Lado derecho */}
+                    {/* Lado derecho - Carrito y menú hamburguesa */}
                     <div className="flex items-center space-x-4">
                         {/* Icono del carrito de compras */}
-                        <button className="text-white hover:opacity-80 transition-opacity duration-200 p-2">
-                            <IoCartOutline className='text-3xl' />
+                        <button className="hover:opacity-80 transition-opacity duration-200 p-2">
+                            <IoCartOutline className='text-3xl xl:text-4xl min-[1950px]:text-6xl' style={{ color: '#001A70' }} />
                         </button>
 
                         {/* Icono del menú hamburguesa */}
@@ -56,19 +73,6 @@ function Navbar() {
                                 />
                             </svg>
                         </button>
-
-                        {/* Menú desktop - solo visible en md y superior */}
-                        <div className="hidden md:flex items-center space-x-6">
-                            {menuItems.map((item) => (
-                                <a
-                                    key={item.name}
-                                    href={item.href}
-                                    className="text-white hover:opacity-80 px-3 py-2 text-sm  transition-opacity duration-200"
-                                >
-                                    {item.name}
-                                </a>
-                            ))}
-                        </div>
                     </div>
                 </div>
             </div>
@@ -81,7 +85,8 @@ function Navbar() {
                             key={item.name}
                             href={item.href}
                             onClick={closeMenu}
-                            className="text-white hover:opacity-80 block px-3 py-2 rounded-md text-base  transition-opacity duration-200"
+                            className="hover:opacity-80 block px-3 py-2 rounded-md text-base transition-opacity duration-200"
+                            style={{ color: '#001A70' }}
                         >
                             {item.name}
                         </a>
