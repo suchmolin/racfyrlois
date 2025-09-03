@@ -1,11 +1,12 @@
 import { BsFillLightningChargeFill } from "react-icons/bs"
+import { checkoutHandler } from "../utils/checkoutHandler"
 
 
 function FeaturesSection() {
     return (
         <section className="relative w-full bg-[#eeeeef] rounded-b-[15%] lg:rounded-b-[10%] py-16 md:py-12 sm:py-8 2xl:py-28 lg:py-20 overflow-hidden">
             <div className="container mx-auto px-4">
-                <div className="w-[370px] lg:w-[750px] 2xl:w-[1100px] mx-auto space-y-2  lg:space-y-5">
+                <div className="w-[320px] min-[375px]:w-[370px] lg:w-[750px] 2xl:w-[1100px] mx-auto space-y-2  lg:space-y-5">
 
                     {/* Banner 1 - Azul oscuro */}
                     <div className="bg-[#001A70] rounded-2xl py-2  lg:py-4 2xl:py-8 px-2 text-white shadow-lg w-9/12 ml-auto">
@@ -33,7 +34,7 @@ function FeaturesSection() {
                                 <div className="text-2xl  lg:text-6xl 2xl:text-8xl leading-5 font-eastman font-black">lapsos</div>
                             </div>
                         </div>
-                        <img src="/img/TOUCH.png" alt="personaje verde touch" className="absolute bottom-0 lg:-bottom-4 -left-[130px] lg:-left-[280px] 2xl:-left-[320px] w-[170px] lg:w-[320px]  2xl:w-[420px] h-auto" />
+                        <img src="/img/TOUCH.png" alt="personaje verde touch" className="absolute bottom-0 lg:-bottom-4 -left-[150px] min-[375px]:-left-[130px] lg:-left-[280px] 2xl:-left-[320px] w-[170px] lg:w-[320px]  2xl:w-[420px] h-auto" />
                     </div>
 
                     {/* Banner 3 - Azul oscuro */}
@@ -46,7 +47,7 @@ function FeaturesSection() {
                                 <div className="text-xl  lg:text-5xl 2xl:text-6xl leading-5 font-eastman font-black">Horas mensuales</div>
                             </div>
                         </div>
-                        <img src="/img/WONDER.png" alt="personaje naranja wonder" className="absolute bottom-0 lg:-bottom-4 left-[260px] lg:left-[580px] 2xl:left-[790px] w-[170px] lg:w-[320px] 2xl:w-[420px] h-auto" />
+                        <img src="/img/WONDER.png" alt="personaje naranja wonder" className="absolute bottom-0 lg:-bottom-4 left-[230px] min-[375px]:left-[260px] lg:left-[580px] 2xl:left-[790px] w-[170px] lg:w-[320px] 2xl:w-[420px] h-auto" />
                     </div>
 
                     {/* Banner 4 - Naranja */}
@@ -78,7 +79,7 @@ function FeaturesSection() {
 
             <div className="bg-[#eeeeef] rounded-b-[15%] pt-10 flex justify-center w-full">
 
-                <h2 className="w-fit rounded-md 2xl:rounded-lg text-3xl lg:text-5xl 2xl:text-6xl py-2 lg:py-2 px-4 lg:px-6 bg-white text-[#001A70] font-black italic -mb-10 flex items-center">¡INSCRÍBELO AHORA! <BsFillLightningChargeFill className='text-3xl lg:text-7xl text-[#FFA400] inline-block ml-3' /></h2>
+                <button onClick={() => checkoutHandler()} className="cursor-pointer hover:scale-[102%] duration-300 z-10 w-fit rounded-md 2xl:rounded-lg text-2xl min-[375px]:text-3xl lg:text-5xl 2xl:text-6xl py-2 lg:py-2 px-4 lg:px-6 bg-white text-[#001A70] font-black italic -mb-10 flex items-center">¡INSCRÍBELO AHORA! <BsFillLightningChargeFill className='text-3xl lg:text-7xl text-[#FFA400] inline-block ml-3' /></button>
             </div>
         </section>
     )

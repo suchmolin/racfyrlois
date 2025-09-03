@@ -8,10 +8,11 @@ const KidsCard = ({
     title = 'Kids',
     titleSize = '60px',
     imgWidth = '350px',
-    imgAlt = ''
+    imgAlt = '',
+    href
 }) => {
     return (
-        <div className='w-full flex justify-center relative z-10'>
+        <a href={href} className='w-full flex justify-center relative z-10'>
             <div className="relative w-[300px] xl:w-[380px] min-[1610px]:w-[440px] mx-auto">
                 {/* Main Card */}
                 <div className="relative rounded-2xl shadow-lg">
@@ -63,7 +64,7 @@ const KidsCard = ({
                 alt="Kids program"
                 className={`absolute bottom-0 h-auto object-cover ${imgWidth}`}
             />
-        </div>
+        </a>
     );
 };
 

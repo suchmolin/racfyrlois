@@ -13,7 +13,8 @@ const KidsInfoSection = () => {
                 "Logra una pronunciación más precisa del inglés desde temprana edad."
             ],
             imgtitulo: "/img/ESTRELLA1.webp",
-            imgSize: "w-[60px] h-auto sm:w-[90px] md:w-[100px] lg:w-[150px] 2xl:w-[200px]"
+            imgSize: "w-[60px] h-auto sm:w-[90px] md:w-[100px] lg:w-[150px] 2xl:w-[200px]",
+            id: "kids"
 
         },
         {
@@ -23,14 +24,15 @@ const KidsInfoSection = () => {
                 "Mejora su rendimiento académico del colegio.",
                 "Desarrolla su capacidad para adaptarse a nuevos entornos y situaciones.",
                 "Potencia sus habilidades comunicativas, fomenta su comprensión y empatía hacia diferentes culturas.",
-                "Fortalece su confianza al expresarse, lo que impacta positivamente en su autoestima."
+                "Fortalece su confianza al expresarse, lo que impacta positivamente en su autoestima.",
             ],
 
             bgcolor: "white",
             textcolor: "#001A70",
             imgtitulo: "/img/LENTES1.webp",
             imgSize: "w-[60px] h-auto sm:w-[220px] md:w-[100px] lg:w-[150px] 2xl:w-[200px]",
-            titlesize: "45px"
+            titlesize: "45px",
+            id: "elementary"
         },
         {
             title: "High School",
@@ -43,7 +45,8 @@ const KidsInfoSection = () => {
             ],
             imgtitulo: "/img/RAYO1.webp",
             imgSize: "w-[60px] h-auto sm:w-[90px] md:w-[100px] lg:w-[150px] 2xl:w-[200px]",
-            titlesize: "43px"
+            titlesize: "43px",
+            id: "highschool"
 
         }
     ];
@@ -61,6 +64,7 @@ const KidsInfoSection = () => {
                         bgcolor={data.bgcolor}
                         textcolor={data.textcolor}
                         titlesize={data.titlesize}
+                        id={data.id}
                     />
                 ))}
             </div>

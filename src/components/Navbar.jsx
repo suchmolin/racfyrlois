@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { IoCartOutline } from "react-icons/io5";
 
+import { checkoutHandler } from "../utils/checkoutHandler";
+
 function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 
@@ -48,7 +50,7 @@ function Navbar() {
                     {/* Lado derecho - Carrito y menú hamburguesa */}
                     <div className="flex items-center space-x-4">
                         {/* Icono del carrito de compras */}
-                        <button className="hover:opacity-80 transition-opacity duration-200 p-2">
+                        <button onClick={() => checkoutHandler()} className="hover:opacity-80 transition-opacity duration-200 p-2">
                             <IoCartOutline className='text-3xl xl:text-4xl min-[1950px]:text-6xl' style={{ color: '#001A70' }} />
                         </button>
 

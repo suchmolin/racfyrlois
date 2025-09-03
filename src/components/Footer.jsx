@@ -58,26 +58,26 @@ const Footer = () => {
                 {/* Left Section - White Background */}
                 <div className="w-4/12 bg-white p-8 flex flex-col items-center justify-between">
                     {/* Logo */}
-                    <img src="/img/logo.webp" alt="logo fyrlois" className='' />
-                    <img src="/img/lapiz.png" alt="lapiz fyrlois" className='-scale-y-100' />
+                    <img src="/img/logo.webp" alt="logo fyrlois" className='min-[500px]:w-[140px] 2xl:w-[340px]' />
+                    <img src="/img/lapiz.png" alt="lapiz fyrlois" className='-scale-y-100 w-full min-[500px]:w-[110px] 2xl:w-[320px]' />
 
                     {/* Copyright */}
-                    <div className="text-gray-600 text-[8px] text-center text-nowrap">
+                    <div className="text-gray-600 text-[8px] lg:text-sm 2xl:text-xl text-center text-nowrap">
                         © 2025 Fyr lois. All Right Reserved.
                     </div>
                 </div>
 
                 {/* Right Section - Orange Background */}
-                <div className="w-8/12 bg-[#FFA400] py-8 px-8 ">
+                <div className="w-8/12 bg-[#FFA400] py-8 px-8 2xl:p-20 ">
                     <div className="grid grid-cols-2  -ml-3">
                         {/* Navegación */}
-                        <div>
-                            <h3 className="text-sm font-bold text-[#001A70] mb-2">
+                        <div className='flex flex-col 2xl:gap-10'>
+                            <h3 className="text-sm min-[500px]:text-lg lg:text-2xl 2xl:text-5xl font-bold text-[#001A70] mb-2">
                                 Navegación
                             </h3>
                             <ul className="">
                                 {['Inicio', 'Conócenos', 'Etapas', 'Horarios', 'Contáctanos'].map((item, index) => (
-                                    <li key={index} className="flex items-center gap-1  text-[10px]">
+                                    <li key={index} className="flex items-center gap-1  text-[10px] min-[500px]:text-sm md:text-lg lg:text-2xl 2xl:text-5xl 2xl:mb-5">
                                         <div className="w-2 h-2 bg-white rounded-full"></div>
                                         <a href="#" className="w-[120px] text-[#001A70] hover:underline">
                                             {item}
@@ -88,34 +88,34 @@ const Footer = () => {
                         </div>
 
                         {/* Contáctanos */}
-                        <div>
-                            <h3 className="text-sm font-bold text-[#001A70] mb-2">
+                        <div className='flex flex-col 2xl:gap-10 2xl:-ml-32'>
+                            <h3 className="text-sm min-[500px]:text-lg lg:text-2xl 2xl:text-5xl font-bold text-[#001A70] mb-2">
                                 Contáctanos
                             </h3>
-                            <div className="space-y-3">
+                            <div className="space-y-3 2xl:space-y-10">
                                 {/* Phone */}
-                                <div className="flex items-center  text-[10px] text-nowrap">
-                                    <div className='w-[50px]'>
-                                        <IoIosPhonePortrait className='text-white text-sm' />
+                                <div className="flex items-center  text-[10px] min-[500px]:text-sm md:text-lg lg:text-2xl 2xl:text-5xl text-nowrap  2xl:mb-10">
+                                    <div className='w-[20px] 2xl:w-[60px]'>
+                                        <IoIosPhonePortrait className='text-white text-sm min-[500px]:text-lg lg:text-2xl 2xl:text-5xl' />
                                     </div>
-                                    <span className="text-[#001A70]">
+                                    <span className="text-[#001A70] text-start">
                                         0212 959 3681 CCCT
                                     </span>
                                 </div>
 
                                 {/* Location */}
-                                <div className="flex items-start  text-[10px] text-nowrap gap-1">
-                                    <div className='w-[50px]'>
-                                        <FiMapPin className='text-white text-sm' />
+                                <div className="flex items-center  text-[10px] min-[500px]:text-sm md:text-lg lg:text-2xl 2xl:text-5xl text-nowrap gap-1 2xl:mb-32">
+                                    <div className='w-[20px] 2xl:w-[60px]'>
+                                        <FiMapPin className='text-white text-sm min-[500px]:text-lg lg:text-2xl 2xl:text-5xl' />
                                     </div>
-                                    <span className="text-[#001A70] text-[10px]">
+                                    <span className="text-[#001A70] text-[10px] min-[500px]:text-sm md:text-lg lg:text-2xl 2xl:text-5xl">
                                         (CCCT), nivel C2, Sector Yarey, <br />
                                         local PB 05.
                                     </span>
                                 </div>
 
                                 {/* SEDES Button */}
-                                <div className="bg-gray-200 w-fit py-2 px-4 rounded-md hover:font-bold transition-all duration-300">
+                                <div className="bg-gray-200 w-fit py-2 px-4 rounded-md 2xl:rounded-xl hover:font-bold transition-all duration-300 2xl:text-6xl text-[#001A70] font-bold font-eastman">
                                     <Dropdown inline label="Sedes" dismissOnClick={false} className='text-[#001A70]'>
                                         {data.map((item, i) => (
                                             <Dropdown.Item

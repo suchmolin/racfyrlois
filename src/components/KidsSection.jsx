@@ -16,6 +16,7 @@ const KidsSection = () => {
                         titleSize='text-[60px] xl:text-[75px] min-[1610px]:text-[85px] leading-[60px] xl:leading-[75px]'
                         imgWidth='w-[350px] xl:w-[460px]'
                         imgAlt="/img/CONTROL.png"
+                        href="#kids"
                     />
 
                     {/* Kids 6-8 años - Custom colors */}
@@ -28,6 +29,7 @@ const KidsSection = () => {
                         title="Elementary"
                         imgWidth='w-[400px] lg:w-[500px] xl:w-[600px]'
                         imgAlt="/img/LENTES-3.png"
+                        href="#elementary"
                     />
 
                     {/* Kids 9-12 años - Another custom color */}
@@ -40,6 +42,7 @@ const KidsSection = () => {
                         title="High School"
                         imgWidth='w-[370px] xl:w-[600px]'
                         imgAlt="/img/flor.png"
+                        href="#highschool"
                     />
                 </div>
             </div>

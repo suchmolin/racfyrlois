@@ -7,10 +7,11 @@ const KidsInfoCard = ({
     bgcolor = '#001A70',
     textcolor = "white",
     imgtitulo = "/img/LENTES-3.png",
-    imgSize = 'w-[60px] h-auto sm:w-[90px] md:w-[100px] lg:w-[150px] 2xl:w-[200px]'
+    imgSize = 'w-[60px] h-auto sm:w-[90px] md:w-[100px] lg:w-[150px] 2xl:w-[200px]',
+    id
 }) => {
     return (
-        <div className="w-full mx-auto">
+        <div id={id} className="w-full mx-auto">
             <div className="p-5 sm:p-10 lg:py-16 lg:px-20 2xl:py-24 2xl:px-32 relative overflow-hidden" style={{ backgroundColor: bgcolor }}>
                 {/* Top Section with Star and Header */}
                 <div className="relative mb-4 sm:mb-6 flex -ml-2 sm:-ml-3 md:-ml-5 items-center">

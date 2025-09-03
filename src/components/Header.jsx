@@ -1,4 +1,5 @@
 
+import { checkoutHandler } from '../utils/checkoutHandler'
 import SectionSeparator from './SectionSeparator'
 
 function Header() {
@@ -25,9 +26,9 @@ function Header() {
                             Año Escolar <span className="font-lemon text-[#001A70]">2025-2026</span>
                         </h2>
                         <img src="/img/ESTRELLA1.webp" alt="estrella" className="w-[60px] min-[900px]:w-[80px] lg:w-[100px] xl:w-[130px] min-[1440px]:w-[160px] min-[1700px]:w-[180px] min-[1950px]:w-[200px] h-auto" />
-                        <h2 className="md:text-xl min-[900px]:text-2xl lg:text-3xl min-[1440px]:text-4xl min-[1700px]:text-5xl leading-7 font-eastman font-black italic bg-white text-nowrap rounded-md text-[#001A70] px-2 min-[1440px]:px-4 py-1 min-[1440px]:py-2 my-3">
+                        <button onClick={() => checkoutHandler()} className="cursor-pointer hover:scale-[102%] duration-300 z-10 text-sm md:text-xl min-[900px]:text-2xl lg:text-3xl min-[1440px]:text-4xl min-[1700px]:text-5xl leading-7 font-eastman font-black italic bg-white text-nowrap rounded-md text-[#001A70] px-2 min-[1440px]:px-4 py-1 min-[1440px]:py-2 my-3">
                             ¡Inscripciones abiertas!
-                        </h2>
+                        </button>
                     </div>
                 </div>
 

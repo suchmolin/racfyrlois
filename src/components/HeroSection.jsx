@@ -1,3 +1,5 @@
+import { checkoutHandler } from "../utils/checkoutHandler"
+
 function HeroSection() {
     return (
         <section className="relative w-full bg-[#001A70] md:bg-transparent pt-16 overflow-hidden -mt-20 md:-mt-[80px]">
@@ -6,9 +8,9 @@ function HeroSection() {
                 {/* Banner superior blanco con inscripciones */}
                 <div className="mb-8 md:mb-6 sm:mb-4 block md:hidden">
                     <div className="inline-block bg-white rounded-md px-2 py-2 shadow-lg">
-                        <h2 className="text-3xl md:text-xl sm:text-lg font-eastman font-black italic text-[#001A70] text-nowrap">
+                        <button onClick={() => checkoutHandler()} className="text-2xl min-[375px]:text-3xl md:text-xl sm:text-lg font-eastman font-black italic text-[#001A70] text-nowrap">
                             ¡Inscripciones abiertas!
-                        </h2>
+                        </button>
                     </div>
                 </div>
 
