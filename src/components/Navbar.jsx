@@ -22,7 +22,7 @@ function Navbar() {
     ]
 
     return (
-        <nav className="font-eastman font-bold md:pt-5 min-[1440px]:pt-10 min-[1950px]:pt-12 md:absolute bg-[#97D700] md:bg-transparent w-full">
+        <nav className=" font-eastman-bold md:pt-5 min-[1440px]:pt-10 min-[1950px]:pt-12 md:absolute bg-[#97D700] md:bg-transparent w-full">
             <div className="mx-auto px-4 sm:px-6 lg:px-8 min-[1950px]:px-12">
                 <div className="flex justify-between items-center h-16">
                     {/* Lado izquierdo - Logo y navegación */}

@@ -34,7 +34,7 @@ const TestimonialCard = ({
                     <div className="flex-1">
                         {/* Name and Category */}
                         <div className="mb-2 2xl:mb-5 flex flex-col items-center min-[375px]:items-start">
-                            <h3 className="text-2xl lg:text-5xl 2xl:text-6xl font-bold text-[#001A70] 2xl:mb-5">
+                            <h3 className="text-2xl lg:text-5xl 2xl:text-6xl font-eastman-bold text-[#001A70] 2xl:mb-5">
                                 {name}
                             </h3>
                             <p className="text-lg sm:text-3xl 2xl:text-5xl text-[#001A70] font-medium 2xl:font-normal">
@@ -43,7 +43,7 @@ const TestimonialCard = ({
                         </div>
 
                         {/* Testimonial Text */}
-                        <blockquote className="text-lg min-[375px]:text-xs lg:text-xl 2xl:text-3xl leading-5 min-[375px]:leading-3 text-justify">
+                        <blockquote className="text-lg min-[375px]:text-xs lg:text-xl 2xl:text-3xl leading-5 min-[375px]:leading-3 text-justify font-lato">
                             "{testimonial}"
                         </blockquote>
                     </div>

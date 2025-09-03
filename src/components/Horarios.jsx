@@ -34,8 +34,8 @@ const Horarios = () => {
             <div className="w-full flex justify-center items-center pt-10 min-[474px]:pt-20 min-[758px]:pt-32 relative z-20 md:-mt-20 2xl:-mt-40">
                 <img src="/img/estrella3.webp" alt="estrella reloj" className="w-28 aspect-square min-[758px]:w-40 lg:w-64 2xl:w-72" />
                 <div className="flex flex-col ">
-                    <h2 className="text-[#001A70] text-4xl min-[758px]:text-6xl lg:text-8xl 2xl:text-9xl font-black font-eastman">Horarios <br />disponibles</h2>
-                    <h3 className="text-lg min-[758px]:text-2xl lg:text-4xl 2xl:text-5xl text-[#FFA400] italic font-bold lg:mt-4">Año Escolar <span className="font-lemon font-bold">2025-2026</span></h3>
+                    <h2 className="text-[#001A70] text-4xl min-[758px]:text-6xl lg:text-8xl 2xl:text-9xl font-eastman-black ">Horarios <br />disponibles</h2>
+                    <h3 className="text-lg min-[758px]:text-2xl lg:text-4xl 2xl:text-5xl text-[#FFA400] italic font-eastman-bold lg:mt-4">Año Escolar <span className="font-lemon font-bold">2025-2026</span></h3>
                 </div>
             </div>
             <section className="w-full py-5 px-4 bg-white flex justify-center">
@@ -56,7 +56,7 @@ const Horarios = () => {
                 </div>
             </section>
             <div className='flex justify-center z-20 relative lg:py-10 2xl:py-10'>
-                <button onClick={() => checkoutHandler()} className='cursor-pointer hover:scale-[102%] duration-300 z-10 text-white w-fit font-bold text-lg min-[375px]:text-2xl lg:text-4xl 2xl:text-6xl px-4 py-2 rounded-lg bg-[#001A70]'>¡OBTÉN MÁS INFORMACIÓN! <BsFillLightningChargeFill className='text-3xl text-[#FFA400] inline-block ml-3' /></button>
+                <button onClick={() => checkoutHandler()} className='cursor-pointer hover:scale-[102%] duration-300 z-10 text-white w-fit font-eastman-bold text-lg min-[385px]:text-xl lg:text-4xl 2xl:text-6xl px-4 py-2 rounded-lg bg-[#001A70]'>¡OBTÉN MÁS INFORMACIÓN! <BsFillLightningChargeFill className='text-3xl text-[#FFA400] inline-block ' /></button>
             </div>
             <div className='w-full bg-[#001A70] flex flex-col items-center -mt-10 '>
                 <div className='w-full bg-white pt-20 rounded-b-[30px] -mt-1'></div>

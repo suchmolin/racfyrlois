@@ -21,13 +21,13 @@ const KidsCard = ({
                         {/* Title - Kids */}
                         <div className="text-left">
                             <h2
-                                className={`italic font-black font-eastman ${titleSize}`}
+                                className={`italic font-eastman-black ${titleSize}`}
                                 style={{ color: titleColor }}
                             >
                                 {title}
                             </h2>
                             <p
-                                className="text-3xl xl:text-4xl min-[1610px]:text-5xl xl:mt-1 font-bold -mt-1 min-[1610px]:mt-2 text-[#001A70]"
+                                className="text-3xl xl:text-4xl min-[1610px]:text-5xl xl:mt-1 font-eastman-bold -mt-1 min-[1610px]:mt-2 text-[#001A70]"
                             >
                                 {subtitle}
                             </p>

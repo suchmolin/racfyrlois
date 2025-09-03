@@ -14,7 +14,7 @@ const FeaturesGrid = () => {
                                 className="w-24 lg:w-44 min-[1700px]:w-[300px] h-auto mx-auto"
                             />
                         </div>
-                        <h3 className="font-bold text-xl  lg:text-2xl min-[1700px]:text-6xl leading-5" style={{ color: '#001A70' }}>
+                        <h3 className="font-eastman-bold text-xl  lg:text-2xl min-[1700px]:text-6xl leading-5" style={{ color: '#001A70' }}>
                             Metodología <br /> internacional
                         </h3>
                     </div>
@@ -22,9 +22,9 @@ const FeaturesGrid = () => {
                     {/* Panel 2: Egresados en todo el mundo */}
                     <div className="rounded-2xl min-[1700px]:rounded-[35px] py-3 lg:py-6 min-[1700px]:py-20 px-1 text-center shadow-lg" style={{ backgroundColor: '#001A70' }}>
                         <div className="py-7">
-                            <span className="text-5xl min-[470px]:text-6xl lg:text-7xl min-[1700px]:text-[170px] font-lemon font-black leading-5" style={{ color: '#FFA400' }}>+100K</span>
+                            <span className="text-5xl min-[470px]:text-6xl lg:text-7xl min-[1700px]:text-[170px] font-lemon font-eastman-black leading-5" style={{ color: '#FFA400' }}>+100K</span>
                         </div>
-                        <p className="text-white text-lg lg:text-2xl min-[1700px]:text-6xl font-bold leading-5">
+                        <p className="text-white text-lg lg:text-2xl min-[1700px]:text-6xl font-eastman-bold leading-5">
                             Egresados en <br /> todo el mundo
                         </p>
                     </div>
@@ -32,9 +32,9 @@ const FeaturesGrid = () => {
                     {/* Panel 3: Profesores certificados CELTA */}
                     <div className="rounded-2xl min-[1700px]:rounded-[35px] py-3 lg:py-6 px-1 text-center shadow-lg" style={{ backgroundColor: '#001A70' }}>
                         <div className="py-8">
-                            <span className="text-6xl lg:text-8xl min-[1700px]:text-[200px] font-bold leading-5" style={{ color: '#FFA400' }}>100</span>
+                            <span className="text-6xl lg:text-8xl min-[1700px]:text-[200px] font-eastman-bold leading-5" style={{ color: '#FFA400' }}>100</span>
                         </div>
-                        <p className="text-white text-lg lg:text-2xl min-[1700px]:text-6xl font-bold leading-5">
+                        <p className="text-white text-lg lg:text-2xl min-[1700px]:text-6xl font-eastman-bold leading-5">
                             Profesores <br /> certificados CELTA
                         </p>
                     </div>
@@ -48,7 +48,7 @@ const FeaturesGrid = () => {
                                 className="w-24 lg:w-44 min-[1700px]:w-64 h-auto mx-auto mb-4"
                             />
                         </div>
-                        <h3 className="font-bold text-xl lg:text-2xl min-[1700px]:text-6xl leading-5" style={{ color: '#001A70' }}>
+                        <h3 className="font-eastman-bold text-xl lg:text-2xl min-[1700px]:text-6xl leading-5" style={{ color: '#001A70' }}>
                             Clases totalmente <br />
                             en inglés
                         </h3>

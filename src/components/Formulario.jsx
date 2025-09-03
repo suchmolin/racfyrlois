@@ -10,7 +10,7 @@ export default function Formulario() {
 
                 <img src="/img/cincoestrellas.webp" alt="5 estrellas" className="w-[330px] lg:w-[500px] 2xl:w-[900px]" />
             </div>
-            <h2 className="italic my-2 font-eastman text-white text-3xl lg:text-7xl 2xl:text-9xl font-bold text-center text-nowrap">
+            <h2 className="italic my-2 text-white text-3xl lg:text-7xl 2xl:text-9xl font-eastman-bold text-center text-nowrap">
                 ¡Impulsa el aprendizaje <br />
                 de tu hijo con el inglés!
             </h2>
@@ -18,9 +18,9 @@ export default function Formulario() {
             <ContactForm />
 
             <div id="redes" className="flex gap-2 items-center text-white text-4xl lg:text-6xl  2xl:text-8xl">
-                <a href="#"><LiaFacebookSquare /></a>
-                <a href="#"><FaInstagram className="text-3xl lg:text-5xl 2xl:text-7xl" /></a>
-                <a href="#"><AiOutlineLinkedin /></a>
+                <a href="https://www.facebook.com/fyrlois.oficial"><LiaFacebookSquare /></a>
+                <a href="https://www.instagram.com/fyrlois"><FaInstagram className="text-3xl lg:text-5xl 2xl:text-7xl" /></a>
+                <a href="https://www.linkedin.com/company/fyr-lois-language-institute"><AiOutlineLinkedin /></a>
             </div>
 
         </div>

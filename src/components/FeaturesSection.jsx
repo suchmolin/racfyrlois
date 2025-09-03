@@ -12,14 +12,14 @@ function FeaturesSection() {
                     <div className="bg-[#001A70] rounded-2xl py-2  lg:py-4 2xl:py-8 px-2 text-white shadow-lg w-9/12 ml-auto">
                         <div className="flex items-center justify-end">
                             <div className="w-8/12 text-right">
-                                <div className="text-[#FFA400] font-eastman font-black text-2xl lg:text-6xl 2xl:text-7xl pr-4 italic leading-5">
+                                <div className="text-[#FFA400] font-eastman-black text-2xl lg:text-6xl 2xl:text-7xl pr-4 italic leading-5">
                                     Adaptado <br /> a su edad
                                 </div>
 
                             </div>
                             <div className="w-4/12 flex flex-col justify-center items-center pr-2">
                                 <div className="text-3xl  lg:text-6xl  2xl:text-8xl font-lemon font-black text-nowrap">3-16</div>
-                                <div className="text-2xl  lg:text-5xl 2xl:text-6xl font-eastman font-black -mt-2 italic">años</div>
+                                <div className="text-2xl  lg:text-5xl 2xl:text-6xl font-eastman-black -mt-2 italic">años</div>
                             </div>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ function FeaturesSection() {
                                 <div className="text-7xl  lg:text-9xl  2xl:text-[150px] font-lemon font-black pr-4">3</div>
                             </div>
                             <div className="w-1/2 text-left">
-                                <div className="text-2xl  lg:text-6xl 2xl:text-8xl leading-5 font-eastman font-black">lapsos</div>
+                                <div className="text-2xl  lg:text-6xl 2xl:text-8xl leading-5 font-eastman-bold">lapsos</div>
                             </div>
                         </div>
                         <img src="/img/TOUCH.png" alt="personaje verde touch" className="absolute bottom-0 lg:-bottom-4 -left-[150px] min-[375px]:-left-[130px] lg:-left-[280px] 2xl:-left-[320px] w-[170px] lg:w-[320px]  2xl:w-[420px] h-auto" />
@@ -44,7 +44,7 @@ function FeaturesSection() {
                                 <div className="text-7xl  lg:text-9xl 2xl:text-[150px] font-lemon lemon font-black pr-2">16</div>
                             </div>
                             <div className="w-3/12 text-left 2xl:ml-2">
-                                <div className="text-xl  lg:text-5xl 2xl:text-6xl leading-5 font-eastman font-black">Horas mensuales</div>
+                                <div className="text-xl  lg:text-5xl 2xl:text-6xl leading-5 font-eastman-bold">Horas mensuales</div>
                             </div>
                         </div>
                         <img src="/img/WONDER.png" alt="personaje naranja wonder" className="absolute bottom-0 lg:-bottom-4 left-[230px] min-[375px]:left-[260px] lg:left-[580px] 2xl:left-[790px] w-[170px] lg:w-[320px] 2xl:w-[420px] h-auto" />
@@ -57,7 +57,7 @@ function FeaturesSection() {
                                 <div className="text-7xl  lg:text-9xl 2xl:text-[150px] font-lemon font-bold text-[#001A70] pr-2">48</div>
                             </div>
                             <div className="w-1/2 text-left">
-                                <div className="text-2xl  lg:text-5xl  2xl:text-6xl leading-5 font-eastman font-black">Horas <br /> por lapso</div>
+                                <div className="text-2xl  lg:text-5xl  2xl:text-6xl leading-5 font-eastman-bold">Horas <br /> por lapso</div>
                             </div>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ function FeaturesSection() {
                                 <div className="text-7xl  lg:text-9xl 2xl:text-[150px] font-lemon font-bold text-[#001A70]  pr-2">8</div>
                             </div>
                             <div className="w-1/2 text-left">
-                                <div className="text-2xl  lg:text-5xl  2xl:text-6xl leading-5 font-eastman font-black text-nowrap">Alumnos <br /> por grupo</div>
+                                <div className="text-2xl  lg:text-5xl  2xl:text-6xl leading-5 font-eastman-bold text-nowrap">Alumnos <br /> por grupo</div>
                             </div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ function FeaturesSection() {
 
             <div className="bg-[#eeeeef] rounded-b-[15%] pt-10 flex justify-center w-full">
 
-                <button onClick={() => checkoutHandler()} className="cursor-pointer hover:scale-[102%] duration-300 z-10 w-fit rounded-md 2xl:rounded-lg text-2xl min-[375px]:text-3xl lg:text-5xl 2xl:text-6xl py-2 lg:py-2 px-4 lg:px-6 bg-white text-[#001A70] font-black italic -mb-10 flex items-center">¡INSCRÍBELO AHORA! <BsFillLightningChargeFill className='text-3xl lg:text-7xl text-[#FFA400] inline-block ml-3' /></button>
+                <button onClick={() => checkoutHandler()} className="cursor-pointer hover:scale-[102%] duration-300 z-10 w-fit rounded-md 2xl:rounded-lg text-2xl min-[375px]:text-3xl lg:text-5xl 2xl:text-6xl py-2 lg:py-2 px-4 lg:px-6 bg-white text-[#001A70] font-eastman-black italic -mb-10 flex items-center">¡INSCRÍBELO AHORA! <BsFillLightningChargeFill className='text-3xl lg:text-7xl text-[#FFA400] inline-block ml-3' /></button>
             </div>
         </section>
     )

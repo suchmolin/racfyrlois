@@ -22,9 +22,9 @@ const HorarioPanel = ({
                 {/* Right Side - Schedule Text */}
                 <div className="flex-1">
                     <div className="space-y-1">
-                        <div className={`${textColor} font-bold text-base min-[375px]:text-lg min-[415px]:text-xl lg:text-5xl 2xl:text-7xl`}>
+                        <div className={`${textColor} font-eastman-bold text-sm min-[375px]:text-lg min-[415px]:text-xl lg:text-5xl 2xl:text-7xl`}>
                             {scheduleTitles.map((title, index) => (
-                                <p key={index}>{title}</p>
+                                <p className='text-nowrap' key={index}>{title}</p>
                             ))}
                         </div>
                         <div className={`${textColor} font-bold text-xl min-[415px]:text-2xl lg:text-5xl 2xl:text-7xl font-lemon`}>

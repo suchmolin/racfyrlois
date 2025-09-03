@@ -68,16 +68,16 @@ const Footer = () => {
                 </div>
 
                 {/* Right Section - Orange Background */}
-                <div className="w-8/12 bg-[#FFA400] py-8 px-8 2xl:p-20 ">
-                    <div className="grid grid-cols-2  -ml-3">
+                <div className="w-8/12 bg-[#FFA400] py-8 px-2 2xl:p-20 lg:pl-10">
+                    <div className="flex gap-4 min-[500px]:gap-8 md:gap-16 lg:gap-32 items-start">
                         {/* Navegación */}
-                        <div className='flex flex-col 2xl:gap-10'>
-                            <h3 className="text-sm min-[500px]:text-lg lg:text-2xl 2xl:text-5xl font-bold text-[#001A70] mb-2">
+                        <div className='flex flex-col 2xl:gap-10 w-[100px] 2xl:w-[500px]'>
+                            <h3 className="text-sm min-[500px]:text-lg lg:text-2xl 2xl:text-4xl font-eastman-bold text-[#001A70] mb-2">
                                 Navegación
                             </h3>
                             <ul className="">
                                 {['Inicio', 'Conócenos', 'Etapas', 'Horarios', 'Contáctanos'].map((item, index) => (
-                                    <li key={index} className="flex items-center gap-1  text-[10px] min-[500px]:text-sm md:text-lg lg:text-2xl 2xl:text-5xl 2xl:mb-5">
+                                    <li key={index} className="flex items-center gap-1  text-[10px] min-[500px]:text-sm md:text-lg lg:text-2xl 2xl:text-4xl 2xl:mb-5">
                                         <div className="w-2 h-2 bg-white rounded-full"></div>
                                         <a href="#" className="w-[120px] text-[#001A70] hover:underline">
                                             {item}
@@ -89,33 +89,33 @@ const Footer = () => {
 
                         {/* Contáctanos */}
                         <div className='flex flex-col 2xl:gap-10 2xl:-ml-32'>
-                            <h3 className="text-sm min-[500px]:text-lg lg:text-2xl 2xl:text-5xl font-bold text-[#001A70] mb-2">
+                            <h3 className="text-sm min-[500px]:text-lg lg:text-2xl 2xl:text-4xl font-eastman-bold text-[#001A70] mb-2">
                                 Contáctanos
                             </h3>
                             <div className="space-y-3 2xl:space-y-10">
                                 {/* Phone */}
-                                <div className="flex items-center  text-[10px] min-[500px]:text-sm md:text-lg lg:text-2xl 2xl:text-5xl text-nowrap  2xl:mb-10">
+                                <div className="flex items-center  text-[10px] min-[500px]:text-sm md:text-lg lg:text-2xl 2xl:text-4xl text-  2xl:mb-10">
                                     <div className='w-[20px] 2xl:w-[60px]'>
                                         <IoIosPhonePortrait className='text-white text-sm min-[500px]:text-lg lg:text-2xl 2xl:text-5xl' />
                                     </div>
-                                    <span className="text-[#001A70] text-start">
+                                    <span className="text-[#001A70] text-start font-lemon">
                                         0212 959 3681 CCCT
                                     </span>
                                 </div>
 
                                 {/* Location */}
-                                <div className="flex items-center  text-[10px] min-[500px]:text-sm md:text-lg lg:text-2xl 2xl:text-5xl text-nowrap gap-1 2xl:mb-32">
+                                <div className="flex items-center  text-[10px] min-[500px]:text-sm md:text-lg lg:text-2xl 2xl:text-5xl text- gap-1 2xl:mb-32">
                                     <div className='w-[20px] 2xl:w-[60px]'>
                                         <FiMapPin className='text-white text-sm min-[500px]:text-lg lg:text-2xl 2xl:text-5xl' />
                                     </div>
-                                    <span className="text-[#001A70] text-[10px] min-[500px]:text-sm md:text-lg lg:text-2xl 2xl:text-5xl">
-                                        (CCCT), nivel C2, Sector Yarey, <br />
+                                    <span className="text-[#001A70] text-[10px] min-[500px]:text-sm md:text-lg lg:text-2xl 2xl:text-4xl  font-lemon">
+                                        (CCCT), nivel C2, Sector Yarey,
                                         local PB 05.
                                     </span>
                                 </div>
 
                                 {/* SEDES Button */}
-                                <div className="bg-gray-200 w-fit py-2 px-4 rounded-md 2xl:rounded-xl hover:font-bold transition-all duration-300 2xl:text-6xl text-[#001A70] font-bold font-eastman">
+                                <div className="bg-gray-200 w-fit py-2 px-4 rounded-md 2xl:rounded-xl hover:font-eastman-bold transition-all duration-300 2xl:text-5xl italic text-[#001A70] font-eastman-bold">
                                     <Dropdown inline label="Sedes" dismissOnClick={false} className='text-[#001A70]'>
                                         {data.map((item, i) => (
                                             <Dropdown.Item

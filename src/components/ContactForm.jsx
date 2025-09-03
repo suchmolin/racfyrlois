@@ -42,7 +42,7 @@ const ContactForm = () => {
                 <div className="bg-gray-100 rounded-t-3xl rounded-b-2xl p-8 lg:p-16 2xl:p-20 shadow-lg">
                     {/* Title */}
                     <div className=" mb-8 lg:mb-12 2xl:mb-16">
-                        <h2 className="border-b-[3px] lg:border-b-[6px] 2xl:border-b-[8px] border-[#001A70] w-fit text-3xl lg:text-7xl 2xl:text-8xl font-eastman font-black text-[#FFA400] mb-1">
+                        <h2 className="border-b-[3px] lg:border-b-[6px] 2xl:border-b-[8px] border-[#001A70] w-fit text-3xl lg:text-7xl 2xl:text-8xl font-eastman-black text-[#FFA400] mb-1">
                             Contáctanos
                         </h2>
 
@@ -137,7 +137,7 @@ const ContactForm = () => {
                             <button
                                 type="submit"
                                 id="BtnEnviar"
-                                className="w-fit text-2xl lg:text-6xl 2xl:text-7xl font-eastman italic bg-[#001A70] text-white font-bold py-2 px-6 lg:py-4 lg:px-10 2xl:py-5 2xl:px-12 rounded-lg hover:bg-[#001A70]/90 transition-colors duration-200 flex items-center justify-center gap-3"
+                                className="w-fit text-2xl lg:text-6xl 2xl:text-7xl italic bg-[#001A70] text-white font-eastman-bold py-2 px-6 lg:py-4 lg:px-10 2xl:py-5 2xl:px-12 rounded-lg hover:bg-[#001A70]/90 transition-colors duration-200 flex items-center justify-center gap-3"
                             >
                                 ENVIAR
                                 <BsFillLightningChargeFill className="text-2xl lg:text-6xl 2xl:text-7xl text-[#FFA400]" />

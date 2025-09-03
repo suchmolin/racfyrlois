@@ -10,12 +10,12 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'eastman': ['eastman', 'sans-serif'],
-        'eastman-bold': ['eastman-bold', 'sans-serif'],
-        'eastman-black': ['eastman-black', 'sans-serif'],
-        'lato': ['lato', 'sans-serif'],
-        'lemon': ['lemon', 'sans-serif'],
-        'lemon-bold': ['lemon-bold', 'sans-serif'],
+        'eastman': ['eastman'],
+        'eastman-bold': ['eastman-bold'],
+        'eastman-black': ['eastman-black'],
+        'lato': ['lato'],
+        'lemon': ['lemon'],
+        'lemon-bold': ['lemon-bold'],
       },
     },
   },
