@@ -8,9 +8,9 @@ const TestimonialCard = ({
     testimonial
 }) => {
     return (
-        <div className="w-[330px] min-[375px]:w-[380px] sm:w-[450px] lg:w-[800px] 2xl:w-[1200px] mx-auto">
+        <div className="w-[330px] min-[415px]:w-[380px] sm:w-[450px] lg:w-[800px] 2xl:w-[1200px] mx-auto">
             <div className="bg-[#eeeeef] rounded-2xl p-4 lg:p-8 2xl:p-12">
-                <div className="flex flex-col min-[375px]:flex-row gap-2 sm:gap-6 2xl:gap-8">
+                <div className="flex flex-col min-[415px]:flex-row gap-2 sm:gap-6 2xl:gap-8">
                     {/* Left Side - Profile Picture and Rating */}
                     <div className="flex flex-col items-center">
                         {/* Profile Picture */}
@@ -33,7 +33,7 @@ const TestimonialCard = ({
                     {/* Right Side - Name, Category, and Testimonial */}
                     <div className="flex-1">
                         {/* Name and Category */}
-                        <div className="mb-2 2xl:mb-5 flex flex-col items-center min-[375px]:items-start">
+                        <div className="mb-2 2xl:mb-5 flex flex-col items-center min-[415px]:items-start">
                             <h3 className="text-2xl lg:text-5xl 2xl:text-6xl font-eastman-bold text-[#001A70] 2xl:mb-5">
                                 {name}
                             </h3>
@@ -43,7 +43,7 @@ const TestimonialCard = ({
                         </div>
 
                         {/* Testimonial Text */}
-                        <blockquote className="text-lg min-[375px]:text-xs lg:text-xl 2xl:text-3xl leading-5 min-[375px]:leading-3 text-justify font-lato">
+                        <blockquote className="text-lg min-[415px]:text-xs lg:text-xl 2xl:text-3xl leading-5 min-[415px]:leading-3 text-justify font-lato">
                             "{testimonial}"
                         </blockquote>
                     </div>

@@ -20,9 +20,9 @@ const FeaturesGrid = () => {
                     </div>
 
                     {/* Panel 2: Egresados en todo el mundo */}
-                    <div className="rounded-2xl min-[1700px]:rounded-[35px] py-3 lg:py-6 min-[1700px]:py-20 px-1 text-center shadow-lg" style={{ backgroundColor: '#001A70' }}>
-                        <div className="py-7">
-                            <span className="text-5xl min-[470px]:text-6xl lg:text-7xl min-[1700px]:text-[170px] font-lemon font-eastman-black leading-5" style={{ color: '#FFA400' }}>+100K</span>
+                    <div className="h-full flex flex-col justify-center rounded-2xl min-[1700px]:rounded-[35px] py-3 lg:py-6 min-[1700px]:py-20 px-1 text-center shadow-lg" style={{ backgroundColor: '#001A70' }}>
+                        <div className="py-3">
+                            <span className="text-5xl min-[470px]:text-6xl lg:text-7xl min-[1700px]:text-[170px] font-lemon-bold leading-5" style={{ color: '#FFA400' }}>+100K</span>
                         </div>
                         <p className="text-white text-lg lg:text-2xl min-[1700px]:text-6xl font-eastman-bold leading-5">
                             Egresados en <br /> todo el mundo
@@ -30,9 +30,9 @@ const FeaturesGrid = () => {
                     </div>
 
                     {/* Panel 3: Profesores certificados CELTA */}
-                    <div className="rounded-2xl min-[1700px]:rounded-[35px] py-3 lg:py-6 px-1 text-center shadow-lg" style={{ backgroundColor: '#001A70' }}>
-                        <div className="py-8">
-                            <span className="text-6xl lg:text-8xl min-[1700px]:text-[200px] font-eastman-bold leading-5" style={{ color: '#FFA400' }}>100</span>
+                    <div className="rounded-2xl h-full flex flex-col justify-center min-[1700px]:rounded-[35px] py-3 lg:py-6 px-1 text-center shadow-lg" style={{ backgroundColor: '#001A70' }}>
+                        <div className="py-3">
+                            <span className="text-6xl lg:text-8xl min-[1700px]:text-[200px] font-lemon-bold leading-5" style={{ color: '#FFA400' }}>100</span>
                         </div>
                         <p className="text-white text-lg lg:text-2xl min-[1700px]:text-6xl font-eastman-bold leading-5">
                             Profesores <br /> certificados CELTA

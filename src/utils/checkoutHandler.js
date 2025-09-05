@@ -3,7 +3,7 @@ export const checkoutHandler = async () => {
         {
             id: "regreso-a-clases-2025",
             cantidad: 1,
-            precio: 999,
+            precio: 960,
             curso: "Regreso a Clases 2025"
         }
     ]

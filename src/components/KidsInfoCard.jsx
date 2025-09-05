@@ -18,7 +18,7 @@ const KidsInfoCard = ({
                     <img src={imgtitulo} alt={imgtitulo} className={`${imgSize}`} />
                     {/* Title and Subtitle */}
                     <div className="ml-2 sm:ml-3">
-                        <h2 className=" font-eastman-black italic mb-1 sm:mb-2 text-nowrap text-2xl sm:text-6xl lg:text-8xl 2xl:text-[100px]" style={{ color: textcolor, lineHeight: '1.1' }}>
+                        <h2 className=" font-eastman-black italic mb-1 sm:mb-2 text-nowrap text-4xl min-[415px]:text-5xl sm:text-6xl lg:text-8xl 2xl:text-[120px]" style={{ color: textcolor, lineHeight: '1.1' }}>
                             {title}
                         </h2>
                         <p className="text-xl sm:text-3xl lg:text-5xl 2xl:text-6xl -mt-1 font-eastman-bold text-orange-400">

@@ -62,8 +62,8 @@ const Footer = () => {
                     <img src="/img/lapiz.png" alt="lapiz fyrlois" className='-scale-y-100 w-full min-[500px]:w-[110px] 2xl:w-[320px]' />
 
                     {/* Copyright */}
-                    <div className="text-gray-600 text-[8px] lg:text-sm 2xl:text-xl text-center text-nowrap">
-                        © 2025 Fyr lois. All Right Reserved.
+                    <div className="text-gray-600 text-[8px] lg:text-sm 2xl:text-xl text-center text-nowrap ">
+                        © <span className='font-lemon'>2025</span> Fyr lois. All Right Reserved.
                     </div>
                 </div>
 
@@ -77,7 +77,7 @@ const Footer = () => {
                             </h3>
                             <ul className="">
                                 {['Inicio', 'Conócenos', 'Etapas', 'Horarios', 'Contáctanos'].map((item, index) => (
-                                    <li key={index} className="flex items-center gap-1  text-[10px] min-[500px]:text-sm md:text-lg lg:text-2xl 2xl:text-4xl 2xl:mb-5">
+                                    <li key={index} className="flex items-center gap-1  text-[10px] min-[500px]:text-sm md:text-lg lg:text-2xl 2xl:text-4xl 2xl:mb-5 font-eastman-bold">
                                         <div className="w-2 h-2 bg-white rounded-full"></div>
                                         <a href="#" className="w-[120px] text-[#001A70] hover:underline">
                                             {item}

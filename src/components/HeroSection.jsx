@@ -8,7 +8,7 @@ function HeroSection() {
                 {/* Banner superior blanco con inscripciones */}
                 <div className="mb-8 md:mb-6 sm:mb-4 block md:hidden">
                     <div className="inline-block bg-white rounded-md px-2 py-2 shadow-lg">
-                        <button onClick={() => checkoutHandler()} className="text-2xl min-[375px]:text-3xl md:text-xl sm:text-lg font-eastman-black italic text-[#001A70] text-nowrap">
+                        <button onClick={() => checkoutHandler()} className="text-2xl min-[435px]:text-3xl md:text-xl sm:text-lg font-eastman-black italic text-[#001A70] text-nowrap">
                             ¡Inscripciones abiertas!
                         </button>
                     </div>
