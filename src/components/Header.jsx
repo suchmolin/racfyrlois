@@ -4,7 +4,7 @@ import SectionSeparator from './SectionSeparator'
 
 function Header() {
     return (
-        <header className="w-full pt-8 md:pt-32 min-[1440px]:pt-52 sm:py-4 text-center overflow-hidden md:bg-[url('/img/INICIO2.webp')] bg-right bg-cover bg-no-repeat bg-[#97D700] md:bg-transparent">
+        <header className="w-full pt-8 md:pt-32 min-[1440px]:pt-52 sm:py-4 text-center overflow-hidden md:bg-[url('/img/INICIO2.webp')] bg-right bg-cover bg-no-repeat bg-[#97D700] md:bg-transparent min-[1180px]:pb-20 min-[2140px]:pb-32 min-[2270px]:pb-72">
             <div className="relative md:flex w-full md:w-6/12">
                 {/* Logo centrado */}
                 <div className="mb-8 md:mb-6 sm:mb-4 block md:hidden">
@@ -22,7 +22,7 @@ function Header() {
                     </h1>
                     <div className='hidden md:flex flex-col items-center'>
                         <img src="/img/backtodream.png" alt="Back to dream" className="w-[280px] min-[900px]:w-[300px] lg:w-[380px] xl:w-[500px] min-[1440px]:w-[550px] min-[1700px]:w-[600px] min-[1950px]:w-[680px] h-auto" />
-                        <h2 className="text-2xl md:text-xl sm:text-2xl xl:text-3xl min-[1440px]:text-4xl min-[1700px]:text-5xl text-white m-0 drop-shadow-lg tracking-wide font-eastman-black -mt-7">
+                        <h2 className="text-2xl md:text-xl sm:text-2xl xl:text-3xl min-[1440px]:text-4xl min-[1700px]:text-5xl text-white m-0 drop-shadow-lg tracking-wide font-eastman-black -mt-3">
                             Año Escolar <span className="font-lemon text-[#001A70]">2025-2026</span>
                         </h2>
                         <img src="/img/ESTRELLA1.webp" alt="estrella" className="w-[60px] min-[900px]:w-[80px] lg:w-[100px] xl:w-[130px] min-[1440px]:w-[160px] min-[1700px]:w-[180px] min-[1950px]:w-[200px] h-auto" />
@@ -35,7 +35,7 @@ function Header() {
                 {/* Imagen principal como fondo */}
                 <div className="relative block md:hidden">
                     <div
-                        className="w-full mt-0 mb-8 relative h-[45dvh] min-[400px]:h-[60dvh] min-[570px]:h-[70dvh] min-[664px]:h-[80dvh] bg-cover bg-center bg-no-repeat"
+                        className="w-full mt-0 mb-8 relative h-[45dvh] min-[425px]:h-[60dvh] min-[550px]:h-[70dvh] min-[660px]:h-[80dvh]  bg-cover bg-center bg-no-repeat"
                         style={{ backgroundImage: 'url(/img/imageninicio.webp)' }}
                     >
 

@@ -18,7 +18,7 @@ function Navbar() {
         { name: 'INICIO', href: '#inicio' },
         { name: 'HORARIOS', href: '#horarios' },
         { name: 'ETAPAS', href: '#etapas' },
-        { name: 'CONTACTANOS', href: '#contactanos' }
+        { name: 'CONTACTO', href: '#contactanos' }
     ]
 
     return (

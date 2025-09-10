@@ -10,7 +10,7 @@ export default function Formulario() {
 
                 <img src="/img/cincoestrellas.webp" alt="5 estrellas" className="w-[330px] lg:w-[500px] 2xl:w-[900px]" />
             </div>
-            <h2 className="italic my-2 text-white text-3xl lg:text-7xl 2xl:text-9xl font-eastman-bold text-center text-nowrap">
+            <h2 className="italic my-2 text-white text-2xl lg:text-6xl 2xl:text-8xl font-eastman-bold text-center text-nowrap">
                 ¡Impulsa el aprendizaje <br />
                 de tu hijo con el inglés!
             </h2>

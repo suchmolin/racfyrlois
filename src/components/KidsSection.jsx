@@ -41,13 +41,14 @@ const KidsSection = () => {
                         subtitle="12-16 años"
                         title="High School"
                         imgWidth='w-[370px] xl:w-[600px]'
-                        imgAlt="/img/flor.png"
+                        imgAlt="/img/lapiz.png"
                         href="#highschool"
+                        imgAltClass="-bottom-10 -right-5 w-[110px]"
                     />
                 </div>
             </div>
             <div className='bg-[#001A70] relative'>
-                <div className='bg-white rounded-b-[20%] w-full h-32 -mt-4'></div>
+                <div className='bg-white rounded-b-[30px] w-full h-32 -mt-4'></div>
                 <div className='w-full h-20 absolute -top-1 bg-white'></div>
             </div>
         </section>

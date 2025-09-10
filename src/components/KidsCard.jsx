@@ -9,7 +9,8 @@ const KidsCard = ({
     titleSize = '60px',
     imgWidth = '350px',
     imgAlt = '',
-    href
+    href,
+    imgAltClass = '-bottom-10 -right-10 w-[170px]'
 }) => {
     return (
         <a href={href} className='w-full flex justify-center relative z-10'>
@@ -56,7 +57,7 @@ const KidsCard = ({
 
                     </div>
                 </div>
-                <img src={imgAlt} alt="imagen 3d" className='absolute -bottom-10 -right-10 w-[170px] h-auto z-20' style={{}} />
+                <img src={imgAlt} alt="imagen 3d" className={`absolute  h-auto z-20 ${imgAltClass}`} style={{}} />
 
             </div>
             <img

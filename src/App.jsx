@@ -55,7 +55,7 @@ function App() {
       </div>
       <TestimonialsSection />
       <div id="horarios" className='bg-[#FFA400] w-full -mt-32 pb-20 min-[465px]:pb-32 min-[759px]:pb-44 lg:pb-60 min-[1414px]:pb-[350px] relative'>
-        <div className='rounded-b-[30%] pt-20 bg-white w-full'></div>
+        <div className='rounded-b-[30px] pt-20 bg-white w-full'></div>
         <h2 className='text-2xl min-[475px]:text-3xl min-[759px]:text-4xl lg:text-5xl  min-[1414px]:text-6xl  min-[1900px]:text-7xl text-center leading-7 text-white font-eastman-black mt-10  min-[1414px]:pt-20'><span className='text-[#001A70] italic'>¡Escoge el horario</span> que mejor <br />
           se adapte a tu rutina familiar!</h2>
 

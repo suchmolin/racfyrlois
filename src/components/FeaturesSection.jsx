@@ -77,7 +77,7 @@ function FeaturesSection() {
                 </div>
             </div>
 
-            <div className="bg-[#eeeeef] rounded-b-[15%] pt-10 flex justify-center w-full">
+            <div className="bg-[#eeeeef] rounded-b-[30px] pt-10 flex justify-center w-full">
 
                 <button onClick={() => checkoutHandler()} className="cursor-pointer hover:scale-[102%] duration-300 z-10 w-fit rounded-md 2xl:rounded-lg text-2xl min-[500px]:text-3xl lg:text-5xl 2xl:text-6xl py-2 lg:py-2 px-4 lg:px-6 bg-white text-[#001A70] font-eastman-black italic -mb-10 flex items-center">¡INSCRÍBELO AHORA! <BsFillLightningChargeFill className='text-3xl lg:text-7xl text-[#FFA400] inline-block ml-3' /></button>
             </div>

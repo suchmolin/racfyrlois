@@ -2,7 +2,7 @@ import React from 'react';
 
 const FeaturesGrid = () => {
     return (
-        <section className="pt-16 pb-24 min-[575px]:pb-44 min-[950px]:pb-64 lg:pb-80 min-[1690px]:pb-96 min-[1700px]:pb-[500px] rounded-t-2xl relative" style={{ backgroundColor: '#97D700' }}>
+        <section className="pt-16 pb-24 min-[575px]:pb-44 min-[950px]:pb-64 lg:pb-80 min-[1690px]:pb-96 min-[1700px]:pb-[500px] rounded-t-[30px] relative" style={{ backgroundColor: '#97D700' }}>
             <div className=" mx-auto px-4 w-full flex justify-center">
                 <div className="sm:w-[600px] lg:w-[800px] min-[1700px]:w-[1200px] grid grid-cols-2 gap-4">
                     {/* Panel 1: Metodología internacional */}

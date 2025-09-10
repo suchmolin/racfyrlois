@@ -25,10 +25,10 @@ function HeroSection() {
                 </div>
 
                 {/* Eslogan en español */}
-                <div className="bg-[#eeeeef] rounded-t-[15%] lg:rounded-t-3xl pt-16 pb-8 md:pb-0 w-full">
+                <div className="bg-[#eeeeef] rounded-t-[30px] lg:rounded-t-3xl pt-16 pb-8 md:pb-0 w-full">
                     <div className="">
                         <h3 className="text-lg min-[410px]:text-xl md:text-3xl sm:text-2xl lg:text-4xl 2xl:text-6xl font-eastman-black text-[#001A70]  text-nowrap text-center">
-                            <span className=" md:mb-0 block">¡Haz que el inglés sea el impulso</span>
+                            <span className=" md:mb-0 xl:mb-1 2xl:mb-2 block">¡Haz que el inglés sea el impulso</span>
 
                             para que {" "}
                             <span className=" bg-[#001A70] py-1 px-2 text-white rounded-md italic">

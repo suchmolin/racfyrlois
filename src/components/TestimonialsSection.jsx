@@ -32,16 +32,18 @@ const TestimonialsSection = () => {
     return (
         <section className="pt-16 pb-32 px-4 bg-white">
             <div className="mx-auto">
-                <div className="space-y-8">
-                    {testimonials.map((testimonial, index) => (
-                        <TestimonialCard
-                            key={index + "testimonial"}
-                            name={testimonial.name}
-                            category={testimonial.category}
-                            testimonial={testimonial.testimonial}
-                            imagePath={testimonial.imagePath}
-                        />
-                    ))}
+                <div className="flex justify-center">
+                    <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 min-[1850px]:gap-10">
+                        {testimonials.map((testimonial, index) => (
+                            <TestimonialCard
+                                key={index + "testimonial"}
+                                name={testimonial.name}
+                                category={testimonial.category}
+                                testimonial={testimonial.testimonial}
+                                imagePath={testimonial.imagePath}
+                            />
+                        ))}
+                    </div>
                 </div>
             </div>
         </section>
